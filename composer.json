@@ -2,7 +2,7 @@
   "type": "library",
   "name": "hkch/wechat",
   "homepage": "https://github.com/hkch/WeChatDeveloper",
-  "description": "WeChat platform and WeChat payment development tools",
+  "description": "微信平台开发工具",
   "license": "MIT",
   "authors": [
     {
@@ -12,12 +12,9 @@
     }
   ],
   "keywords": [
-    "WePay",
-    "AliPay",
-    "WeMini",
-    "WeChat",
-    "WeChatPay",
-    "WeChatDeveloper"
+    "微信支付",
+    "微信公众号",
+    "微信平台",
   ],
   "require": {
     "php": ">=5.4",
