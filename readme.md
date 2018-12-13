@@ -20,8 +20,6 @@ WeChatDeveloper for PHP
 * 支付宝支付（账单、转账、App支付、刷卡支付、扫码支付、Web支付、Wap支付等）
 
 
-[![PHP微信开发群 (SDK)](http://pub.idqqimg.com/wpa/images/group.png)](http://shang.qq.com/wpa/qunwpa?idkey=ae25cf789dafbef62e50a980ffc31242f150bc61a61164458216dd98c411832a) 
-
 WeChatDeveloper 是基于官方接口封装，在做微信开发前，必需先阅读微信官方文档。
 * 微信官方文档：https://mp.weixin.qq.com/wiki
 * 商户支付文档：https://pay.weixin.qq.com/wiki/doc/api/index.html
@@ -252,9 +250,4 @@ try {
 ----
 * WeChatDeveloper 基于`MIT`协议发布，任何人可以用在任何地方，不受约束
 * WeChatDeveloper 部分代码来自互联网，若有异议，可以联系作者进行删除
-
-赞助支持
-----
-![赞助](http://zoujingli.oschina.io/static/pay.png)
-
 
