@@ -72,15 +72,8 @@ WeChatDeveloper 为开源项目，允许把它用于任何地方，不受任何�
 ----
 1.1 通过 Composer 来管理安装
 ```shell
-# 首次安装 线上版本（稳定）
-composer require zoujingli/wechat-developer
-
-# 首次安装 开发版本（开发）
-composer require zoujingli/wechat-developer dev-master
-
-# 更新 WeChatDeveloper
-composer update zoujingli/wechat-developer
-```
+composer require hkch/wechat
+ 
 
 1.2 如果不使用 Composer， 可以下载 WeChatDeveloper 并解压到项目中
 ```php
