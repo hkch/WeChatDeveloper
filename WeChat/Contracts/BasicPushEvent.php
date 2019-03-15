@@ -122,7 +122,7 @@ class BasicPushEvent
      * @return string
      * @throws InvalidDecryptException
      */
-    public function reply(array $data = [], $return = false)
+    public function reply_bak(array $data = [], $return = false)
     {
         $xml = Tools::arr2xml(empty($data) ? $this->message : $data);
         if ($this->encryptType == 'aes') {
@@ -152,6 +152,16 @@ class BasicPushEvent
         echo $xml;
     }
 
+    public function reply($content)
+    {
+        echo "<xml>
+            <ToUserName><![CDATA[".$this->getOpenid()."]]></ToUserName>
+            <FromUserName><![CDATA[".$this->getToOpenid()."]]></FromUserName>
+            <CreateTime>".time()."</CreateTime>
+            <MsgType><![CDATA[text]]></MsgType>
+            <Content><![CDATA[".$content."]]></Content>
+            </xml>";
+    }
     /**
      * 验证来自微信服务器
      * @param string $str
